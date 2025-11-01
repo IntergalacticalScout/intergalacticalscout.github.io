@@ -5,14 +5,170 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leaving Cert Blog</title>
 
-  <!-- ✅ Google AdSense verification -->
+  <!-- Google AdSense Verification -->
   <script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9278786282886775"
     crossorigin="anonymous">
   </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2d89ef, #6fa8dc);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3em;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2d89ef;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #185abd;
+    }
+
+    .banner {
+      background: #ffeaa7;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #2d3436;
+      border-top: 2px solid #fdcb6e;
+      border-bottom: 2px solid #fdcb6e;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 40px;
+      padding: 30px;
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+    }
+
+    section h2 {
+      color: #2d89ef;
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #2d89ef;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background: #185abd;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Welcome to My Leaving Cert Blog!</h1>
-  <p>This site is hosted on GitHub Pages 🎉</p>
+
+  <header>
+    <h1>Leaving Cert Blog</h1>
+    <p>Your hub for study tips, notes, and motivation for exam success</p>
+  </header>
+
+  <nav>
+    <a href="#planners">Study Planners</a>
+    <a href="#tips">Tips</a>
+    <a href="#notes">Notes</a>
+    <a href="#resources">Resources</a>
+  </nav>
+
+  <div class="banner">
+    🚧 Downtime for something big — exciting updates coming soon! 🚧
+  </div>
+
+  <main>
+    <section id="planners">
+      <h2>Study Planners</h2>
+      <p>Organise your revision schedule with printable and digital study planners. Perfect for keeping track of subjects and deadlines.</p>
+      <a href="#" class="button">View Planners</a>
+    </section>
+
+    <section id="tips">
+      <h2>Study Tips</h2>
+      <p>Get proven exam strategies, focus hacks, and motivation to help you study smarter — not harder.</p>
+      <a href="#" class="button">Read Tips</a>
+    </section>
+
+    <section id="notes">
+      <h2>Notes</h2>
+      <p>Access subject-specific notes written for Leaving Cert students by peers and teachers. New uploads coming soon!</p>
+      <a href="#" class="button">Explore Notes</a>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Download past papers, marking schemes, and other essential revision materials for your subjects.</p>
+      <a href="#" class="button">See Resources</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Leaving Cert Blog | Built on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+  </footer>
 </body>
 </html>
